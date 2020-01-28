@@ -23,14 +23,13 @@
           </a>
           <div class="dropdown-menu">
             <%= link_to "Profile", current_user, :class => 'dropdown-item'%>
-            <%= link_to "Logout", "#", method: :delete, :class => 'dropdown-item'%>
           </div>
         </li>
+        <li class="nav-item"><%= link_to "Logout", logout_path, method: :delete, :class => 'nav-link'%></li>
         <%else%>
-          <li class="nav-item pr-50"> <%= link_to "SignUp", "", :class => 'nav-link'%></li>
+          <li class="nav-item pr-50"> <%= link_to "SignUp", signup_path, :class => 'nav-link'%></li>
           <li class="nav-item"> <%= link_to "Login", login_path, :class => 'nav-link btn btn-primary btn-sm text-white'%></li>
         <% end %>
-       
       </ul>
     </nav>
 
