@@ -10,7 +10,7 @@ class UsersController < ApplicationController
     if @user.save
       log_in @user
       flash[:success] = "Welcome #{@user.name} to members only"
-      redirect_to @user
+      redirect_to root_url
     else
       flash.now[:danger] = 'Invalid credentials, Please try again!'
       render 'new'
