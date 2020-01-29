@@ -1,6 +1,7 @@
 # Project: Authentication
 
-This is part of the Authentication Project in The Odin Project’s Ruby on Rails Curriculum. Find it [here](https://www.theodinproject.com/courses/ruby-on-rails/lessons/authentication)
+This is part of the Authentication Project in The Odin Project’s Ruby on Rails Curriculum. Find it [here](https://www.theodinproject.com/courses/ruby-on-rails/lessons/authentication).
+
 The objective is to implement authentication systems so users can only access areas of a site they are authorized to.
 
 ## Things covered:
