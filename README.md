@@ -1,24 +1,56 @@
-# README
+# Project: Authentication
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is part of the Authentication Project in The Odin Project’s Ruby on Rails Curriculum. Find it [here](https://www.theodinproject.com/courses/ruby-on-rails/lessons/authentication)
+The objective is to implement authentication systems so users can only access areas of a site they are authorized to.
 
-Things you may want to cover:
+## Things covered:
+[x] Signin and signout
+[x] Forms
+[x] Sessions
+[x] Validations
+[x] Remember me
 
-* Ruby version
+## Prequisites
+- Ruby 2.6.3
+- Rails 6.0.2.1
 
-* System dependencies
+## Getting started
+Use the [git](https://git-scm.com/downloads) to clone the project to your local machine.
+```sh
+$ git clone https://github.com/OlukaDenis/members-only.git
+```
 
-* Configuration
+Navigate to the extracted folder
+```sh
+$ cd members-only
+```
 
-* Database creation
+- Install the gems
+```sh
+$ bundle install
+```
 
-* Database initialization
+- Create the database
+```sh
+$ rails db:create
+```
 
-* How to run the test suite
+- Run the migrations
+```sh
+$ rails db:migrate
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+- Run the app
+```sh
+$ rails server
+```
 
-* Deployment instructions
+- Open the browser then access it via _http://localhost:3000_
 
-* ...
+## Author
+[Denis Oluka](https://github.com/OlukaDenis)
+
+**Note:** To the TSEs, I worked on the project alone
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
