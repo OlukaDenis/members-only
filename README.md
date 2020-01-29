@@ -4,11 +4,11 @@ This is part of the Authentication Project in The Odin Project’s Ruby on Rails
 The objective is to implement authentication systems so users can only access areas of a site they are authorized to.
 
 ## Things covered:
-[x] Signin and signout
-[x] Forms
-[x] Sessions
-[x] Validations
-[x] Remember me
+- Signin and signout
+- Forms
+- Sessions
+- Validations
+- Remember me
 
 ## Prequisites
 - Ruby 2.6.3
@@ -25,27 +25,27 @@ Navigate to the extracted folder
 $ cd members-only
 ```
 
-- Install the gems
+Install the gems
 ```sh
 $ bundle install
 ```
 
-- Create the database
+Create the database
 ```sh
 $ rails db:create
 ```
 
-- Run the migrations
+Run the migrations
 ```sh
 $ rails db:migrate
 ```
 
-- Run the app
+Run the app
 ```sh
 $ rails server
 ```
 
-- Open the browser then access it via _http://localhost:3000_
+Open the browser then access it via _http://localhost:3000_
 
 ## Author
 [Denis Oluka](https://github.com/OlukaDenis)
